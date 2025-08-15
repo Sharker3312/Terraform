@@ -1,0 +1,5 @@
+identity_account_id = "642046231684"
+
+# Environments and projects for OU hierarchy
+environments = ["prod", "stagging", "dev"]
+projects     = ["ecommerce"]
