@@ -1,0 +1,7 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Effect": "Allow", "Action": ["amplify:ListApps", "amplify:GetApp", "amplify:ListBranches", "amplify:GetBranch", "amplify:ListJobs", "amplify:GetJob"], "Resource": "*" },
+    { "Effect": "Allow", "Action": ["amplify:StartJob", "amplify:StopJob", "amplify:CreateBranch", "amplify:UpdateBranch", "amplify:DeleteBranch", "amplify:UpdateApp"], "Resource": "*" }
+  ]
+}
