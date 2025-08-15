@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     env: 
-      TF_PLUGIN_CACHE_DIR: $HOME/.terraform.d/plugin-cache
+      TF_PLUGIN_CACHE_DIR: $HOME/.terraform.d/plugin-cache #acache var
     defaults:
       run:
        shell: bash
